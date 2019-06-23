@@ -1,0 +1,600 @@
+2018-04-01 01:42:04.721 [main] INFO  a00979176.Gis - 2018-04-01T08:42:04.717Z
+2018-04-01 01:42:04.804 [main] INFO  a00979176.Gis - Created Gis
+2018-04-01 01:42:04.804 [main] DEBUG a00979176.Gis - run()
+2018-04-01 01:42:04.805 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-01 01:42:04.806 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-01 01:42:04.808 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-01 01:42:04.808 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-01 01:42:04.808 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-01 01:42:04.931 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-01 01:42:05.885 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-01 01:42:06.138 [main] DEBUG a00979176.database.dao.CustomerDao - Creating database table bcmc_Customer
+2018-04-01 01:42:06.139 [main] DEBUG a00979176.database.dao.Dao - CREATE TABLE bcmc_Customer(id BIGINT, firstName VARCHAR(35), lastName VARCHAR(35), street VARCHAR(55), city VARCHAR(35), postalCode VARCHAR(10), phone VARCHAR(15), emailAddress VARCHAR(55), joinedDate TIMESTAMP, PRIMARY KEY (id))
+2018-04-01 01:42:06.174 [main] DEBUG a00979176.database.dao.CustomerDao - Inserting the customers
+2018-04-01 01:42:06.238 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Customer values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2018-04-01 01:42:06.254 [main] DEBUG a00979176.database.dao.CustomerDao - Adding Customer [id=3997, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J 5E6, phone=(604) 433-5004, emailAddress=fredfish@imperial.net, joinedDate=2008-02-22] was unsuccessful
+2018-04-01 01:42:06.255 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Customer values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2018-04-01 01:42:06.255 [main] DEBUG a00979176.database.dao.CustomerDao - Adding Customer [id=2540, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N 4C6, phone=(604) 876-0182, emailAddress=laurieeenash@modern.com, joinedDate=2014-07-28] was unsuccessful
+2018-04-01 01:42:06.256 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Customer values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2018-04-01 01:42:06.257 [main] DEBUG a00979176.database.dao.CustomerDao - Adding Customer [id=1824, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T 2T8, phone=(604) 588-4988, emailAddress=cwash@daytona.net, joinedDate=2011-06-12] was unsuccessful
+2018-04-01 01:42:06.257 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Customer values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2018-04-01 01:42:06.258 [main] DEBUG a00979176.database.dao.CustomerDao - Adding Customer [id=4653, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V 2S9, phone=(604) 276-2552, emailAddress=priceizrite@pacific.com, joinedDate=2015-09-03] was unsuccessful
+2018-04-01 01:42:06.259 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Customer values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2018-04-01 01:42:06.260 [main] DEBUG a00979176.database.dao.CustomerDao - Adding Customer [id=3947, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C 3V9, phone=(604) 293-1022, emailAddress=mchan@hcenter.com, joinedDate=2010-03-01] was unsuccessful
+2018-04-01 01:42:06.279 [main] DEBUG a00979176.database.dao.MotorcycleDao - Creating database table bcmc_Motorcycle
+2018-04-01 01:42:06.280 [main] DEBUG a00979176.database.dao.Dao - CREATE TABLE bcmc_Motorcycle(id BIGINT, make VARCHAR(25), model VARCHAR(25), yearMade BIGINT, serialNumber VARCHAR(25), mileage BIGINT, customerId BIGINT, PRIMARY KEY (id))
+2018-04-01 01:42:06.299 [main] DEBUG a00979176.database.dao.MotorcycleDao - Inserting the inventories
+2018-04-01 01:42:06.306 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Motorcycle values(?, ?, ?, ?, ?, ?, ?)
+2018-04-01 01:42:06.312 [main] DEBUG a00979176.database.dao.MotorcycleDao - Adding Motorcycle{id='21711', make='Triumph', model='Tiger', year=2012, serialNumber='A10000', mileage=22683} was unsuccessful
+2018-04-01 01:42:06.313 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Motorcycle values(?, ?, ?, ?, ?, ?, ?)
+2018-04-01 01:42:06.314 [main] DEBUG a00979176.database.dao.MotorcycleDao - Adding Motorcycle{id='32466', make='Yamaha', model='Bolt', year=2015, serialNumber='B20000', mileage=751} was unsuccessful
+2018-04-01 01:42:06.314 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Motorcycle values(?, ?, ?, ?, ?, ?, ?)
+2018-04-01 01:42:06.315 [main] DEBUG a00979176.database.dao.MotorcycleDao - Adding Motorcycle{id='30618', make='Honda', model='CB1100', year=2015, serialNumber='C30000', mileage=1106} was unsuccessful
+2018-04-01 01:42:06.316 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Motorcycle values(?, ?, ?, ?, ?, ?, ?)
+2018-04-01 01:42:06.317 [main] DEBUG a00979176.database.dao.MotorcycleDao - Adding Motorcycle{id='43900', make='BMW', model='R75/5', year=1972, serialNumber='D40000', mileage=63000} was unsuccessful
+2018-04-01 01:42:06.317 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Motorcycle values(?, ?, ?, ?, ?, ?, ?)
+2018-04-01 01:42:06.318 [main] DEBUG a00979176.database.dao.MotorcycleDao - Adding Motorcycle{id='32212', make='Harley Davidson', model='Sportster', year=2002, serialNumber='E50000', mileage=36000} was unsuccessful
+2018-04-01 01:42:06.319 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Motorcycle values(?, ?, ?, ?, ?, ?, ?)
+2018-04-01 01:42:06.320 [main] DEBUG a00979176.database.dao.MotorcycleDao - Adding Motorcycle{id='31397', make='Suzuki', model='V-Strom 1000', year=2007, serialNumber='F60000', mileage=31680} was unsuccessful
+2018-04-01 01:42:06.320 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Motorcycle values(?, ?, ?, ?, ?, ?, ?)
+2018-04-01 01:42:06.321 [main] DEBUG a00979176.database.dao.MotorcycleDao - Adding Motorcycle{id='37231', make='Ducati', model='Monster 696', year=2009, serialNumber='G70000', mileage=32000} was unsuccessful
+2018-04-01 01:42:06.323 [main] DEBUG a00979176.database.dao.InventoryDao - Inventory load()
+2018-04-01 01:42:06.343 [main] DEBUG a00979176.database.dao.InventoryDao - Creating database table bcmc_Inventory
+2018-04-01 01:42:06.344 [main] DEBUG a00979176.database.dao.Dao - CREATE TABLE bcmc_Inventory(partNumber VARCHAR(25), description VARCHAR(55), price BIGINT, quantity BIGINT, motorcycleId VARCHAR(55), PRIMARY KEY(partNumber))
+2018-04-01 01:42:06.360 [main] DEBUG a00979176.database.dao.InventoryDao - Inserting the parts (inventory)
+2018-04-01 01:42:06.366 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Inventory values(?, ?, ?, ?, ?)
+2018-04-01 01:42:06.370 [main] DEBUG a00979176.database.dao.InventoryDao - Adding ASA-BOLT 7129907050 225 19 Triumph+Tiger was unsuccessful
+2018-04-01 01:42:06.370 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Inventory values(?, ?, ?, ?, ?)
+2018-04-01 01:42:06.380 [main] ERROR a00979176.Gis - org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL180401014206340' defined on 'BCMC_INVENTORY'.
+2018-04-01 01:42:06.380 [main] INFO  a00979176.Gis - 2018-04-01T08:42:06.380Z
+2018-04-01 01:42:06.381 [main] INFO  a00979176.Gis - Duration: 1663 ms
+2018-04-01 01:45:41.968 [main] INFO  a00979176.Gis - 2018-04-01T08:45:41.965Z
+2018-04-01 01:45:42.023 [main] INFO  a00979176.Gis - Created Gis
+2018-04-01 01:45:42.023 [main] DEBUG a00979176.Gis - run()
+2018-04-01 01:45:42.024 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-01 01:45:42.025 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-01 01:45:42.026 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-01 01:45:42.026 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-01 01:45:42.027 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-01 01:45:42.140 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-01 01:45:42.500 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-01 01:45:42.650 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-01 01:45:42.662 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-01 01:45:42.663 [main] DEBUG a00979176.database.dao.InventoryDao - Inventory load()
+2018-04-01 01:45:42.671 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-01 01:45:42.672 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT id FROM bcmc_Motorcycle
+2018-04-01 01:45:42.716 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 7 motorcycle ID(s) from the database
+2018-04-01 01:45:42.717 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 21711
+2018-04-01 01:45:42.733 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 30618
+2018-04-01 01:45:42.740 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 31397
+2018-04-01 01:45:42.745 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 32212
+2018-04-01 01:45:42.749 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 32466
+2018-04-01 01:45:42.753 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 37231
+2018-04-01 01:45:42.757 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 43900
+2018-04-01 01:45:42.761 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-01 01:45:42.770 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 5 customer(s) from the database
+2018-04-01 01:45:42.771 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-01 01:45:42.777 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-01 01:45:42.777 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-01 01:45:42.778 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-01 01:45:42.858 [main] INFO  a00979176.Gis - 2018-04-01T08:45:42.858Z
+2018-04-01 01:45:42.858 [main] INFO  a00979176.Gis - Duration: 893 ms
+2018-04-01 01:45:42.859 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-01 01:45:45.523 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Inventory menu item pressed.
+2018-04-01 02:17:26.249 [main] INFO  a00979176.Gis - 2018-04-01T09:17:26.246Z
+2018-04-01 02:17:26.305 [main] INFO  a00979176.Gis - Created Gis
+2018-04-01 02:17:26.306 [main] DEBUG a00979176.Gis - run()
+2018-04-01 02:17:26.306 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-01 02:17:26.307 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-01 02:17:26.309 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-01 02:17:26.309 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-01 02:17:26.309 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-01 02:17:26.430 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-01 02:17:26.621 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-01 02:17:26.779 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-01 02:17:26.789 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-01 02:17:26.791 [main] DEBUG a00979176.database.dao.InventoryDao - Inventory load()
+2018-04-01 02:17:26.800 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-01 02:17:26.801 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT id FROM bcmc_Motorcycle
+2018-04-01 02:17:26.847 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 7 motorcycle ID(s) from the database
+2018-04-01 02:17:26.848 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 21711
+2018-04-01 02:17:26.865 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 30618
+2018-04-01 02:17:26.870 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 31397
+2018-04-01 02:17:26.874 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 32212
+2018-04-01 02:17:26.878 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 32466
+2018-04-01 02:17:26.883 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 37231
+2018-04-01 02:17:26.887 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 43900
+2018-04-01 02:17:26.891 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-01 02:17:26.900 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 5 customer(s) from the database
+2018-04-01 02:17:26.900 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-01 02:17:26.907 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-01 02:17:26.907 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-01 02:17:26.907 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-01 02:17:26.979 [main] INFO  a00979176.Gis - 2018-04-01T09:17:26.979Z
+2018-04-01 02:17:26.979 [main] INFO  a00979176.Gis - Duration: 733 ms
+2018-04-01 02:17:26.980 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-01 02:17:29.552 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Inventory menu item pressed.
+2018-04-02 05:37:27.286 [main] INFO  a00979176.Gis - 2018-04-02T12:37:27.283Z
+2018-04-02 05:37:27.343 [main] INFO  a00979176.Gis - Created Gis
+2018-04-02 05:37:27.343 [main] DEBUG a00979176.Gis - run()
+2018-04-02 05:37:27.348 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-02 05:37:27.349 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-02 05:37:27.350 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-02 05:37:27.351 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-02 05:37:27.351 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-02 05:37:27.467 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-02 05:37:27.664 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-02 05:37:27.810 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-02 05:37:27.811 [main] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-02 05:37:27.812 [main] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-02 05:37:27.821 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-02 05:37:27.823 [main] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-02 05:37:27.823 [main] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-02 05:37:27.831 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-02 05:37:27.831 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-02 05:37:27.872 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 7 register(s) from the database
+2018-04-02 05:37:27.873 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-02 05:37:27.884 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 5 customer(s) from the database
+2018-04-02 05:37:27.884 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-02 05:37:27.891 [main] DEBUG a00979176.database.dao.InventoryDao - [19 ASA-BOLT for Triumph+Tiger | $225 each]
+2018-04-02 05:37:27.891 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-02 05:37:27.891 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-02 05:37:27.891 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-02 05:37:27.977 [main] INFO  a00979176.Gis - 2018-04-02T12:37:27.977Z
+2018-04-02 05:37:27.977 [main] INFO  a00979176.Gis - Duration: 694 ms
+2018-04-02 05:37:27.978 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-02 05:37:30.583 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Customer menu item pressed.
+2018-04-02 05:37:35.025 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
+2018-04-02 05:37:40.325 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Inventory menu item pressed.
+2018-04-02 05:38:00.561 [main] INFO  a00979176.Gis - 2018-04-02T12:38:00.557Z
+2018-04-02 05:38:00.616 [main] INFO  a00979176.Gis - Created Gis
+2018-04-02 05:38:00.617 [main] DEBUG a00979176.Gis - run()
+2018-04-02 05:38:00.618 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-02 05:38:00.618 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-02 05:38:00.620 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-02 05:38:00.620 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-02 05:38:00.620 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-02 05:38:00.746 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-02 05:38:00.939 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-02 05:38:01.094 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-02 05:38:01.095 [main] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-02 05:38:01.096 [main] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-02 05:38:01.105 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-02 05:38:01.106 [main] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-02 05:38:01.107 [main] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-02 05:38:01.114 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-02 05:38:01.115 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-02 05:38:01.160 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 7 register(s) from the database
+2018-04-02 05:38:01.160 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-02 05:38:01.172 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 5 customer(s) from the database
+2018-04-02 05:38:01.172 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-02 05:38:01.179 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-02 05:38:01.179 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-02 05:38:01.179 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-02 05:38:01.249 [main] INFO  a00979176.Gis - 2018-04-02T12:38:01.249Z
+2018-04-02 05:38:01.250 [main] INFO  a00979176.Gis - Duration: 692 ms
+2018-04-02 05:38:01.251 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-02 05:38:03.523 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
+2018-04-02 05:38:09.218 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Customer menu item pressed.
+2018-04-02 05:38:13.764 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
+2018-04-02 05:39:38.356 [main] INFO  a00979176.Gis - 2018-04-02T12:39:38.352Z
+2018-04-02 05:39:38.411 [main] INFO  a00979176.Gis - Created Gis
+2018-04-02 05:39:38.411 [main] DEBUG a00979176.Gis - run()
+2018-04-02 05:39:38.412 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-02 05:39:38.412 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-02 05:39:38.414 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-02 05:39:38.414 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-02 05:39:38.414 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-02 05:39:38.524 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-02 05:39:38.714 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-02 05:39:38.863 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-02 05:39:38.864 [main] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-02 05:39:38.864 [main] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-02 05:39:38.873 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-02 05:39:38.874 [main] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-02 05:39:38.874 [main] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-02 05:39:38.882 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-02 05:39:38.883 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-02 05:39:38.923 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 7 register(s) from the database
+2018-04-02 05:39:38.924 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-02 05:39:38.936 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 5 customer(s) from the database
+2018-04-02 05:39:38.936 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-02 05:39:38.943 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-02 05:39:38.943 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-02 05:39:38.943 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-02 05:39:39.020 [main] INFO  a00979176.Gis - 2018-04-02T12:39:39.020Z
+2018-04-02 05:39:39.021 [main] INFO  a00979176.Gis - Duration: 668 ms
+2018-04-02 05:39:39.022 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-02 05:39:41.815 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
+2018-04-02 05:39:57.968 [AWT-EventQueue-0] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Motorcycle values(?, ?, ?, ?, ?, ?, ?)
+2018-04-02 05:39:58.031 [AWT-EventQueue-0] DEBUG a00979176.database.dao.MotorcycleDao - Adding 2332 dsds SDF | 34324 miles was unsuccessful
+2018-04-02 05:40:05.237 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
+2018-04-02 05:40:11.574 [main] INFO  a00979176.Gis - 2018-04-02T12:40:11.571Z
+2018-04-02 05:40:11.634 [main] INFO  a00979176.Gis - Created Gis
+2018-04-02 05:40:11.634 [main] DEBUG a00979176.Gis - run()
+2018-04-02 05:40:11.635 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-02 05:40:11.636 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-02 05:40:11.638 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-02 05:40:11.638 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-02 05:40:11.638 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-02 05:40:11.756 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-02 05:40:11.920 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-02 05:40:12.076 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-02 05:40:12.077 [main] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-02 05:40:12.078 [main] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-02 05:40:12.087 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-02 05:40:12.088 [main] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-02 05:40:12.089 [main] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-02 05:40:12.097 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-02 05:40:12.097 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-02 05:40:12.138 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 8 register(s) from the database
+2018-04-02 05:40:12.138 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-02 05:40:12.150 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 5 customer(s) from the database
+2018-04-02 05:40:12.150 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-02 05:40:12.158 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-02 05:40:12.158 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-02 05:40:12.158 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-02 05:40:12.233 [main] INFO  a00979176.Gis - 2018-04-02T12:40:12.233Z
+2018-04-02 05:40:12.234 [main] INFO  a00979176.Gis - Duration: 662 ms
+2018-04-02 05:40:12.235 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-02 05:40:14.113 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
+2018-04-02 05:40:22.582 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
+2018-04-02 05:40:29.615 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Inventory menu item pressed.
+2018-04-02 05:40:35.779 [AWT-EventQueue-0] DEBUG a00979176.database.dao.InventoryDao - Update statment: UPDATE bcmc_Inventory SET description=?, price=?, quantity=?, motorcycleId=? WHERE partNumber=?
+2018-04-02 05:40:35.779 [AWT-EventQueue-0] DEBUG a00979176.database.dao.Dao - UPDATE bcmc_Inventory SET description=?, price=?, quantity=?, motorcycleId=? WHERE partNumber=?
+2018-04-02 05:40:35.845 [AWT-EventQueue-0] DEBUG a00979176.database.dao.InventoryDao - Updating 19 ASA-BOLTttttttttttttt for Triumph+Tiger | $225 each was unsuccessful
+2018-04-02 05:40:39.571 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Inventory menu item pressed.
+2018-04-02 05:40:45.554 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Quit menu item pressed.
+2018-04-02 05:40:47.537 [main] INFO  a00979176.Gis - 2018-04-02T12:40:47.534Z
+2018-04-02 05:40:47.596 [main] INFO  a00979176.Gis - Created Gis
+2018-04-02 05:40:47.596 [main] DEBUG a00979176.Gis - run()
+2018-04-02 05:40:47.597 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-02 05:40:47.597 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-02 05:40:47.599 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-02 05:40:47.599 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-02 05:40:47.599 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-02 05:40:47.710 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-02 05:40:47.882 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-02 05:40:48.038 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-02 05:40:48.039 [main] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-02 05:40:48.039 [main] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-02 05:40:48.047 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-02 05:40:48.049 [main] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-02 05:40:48.049 [main] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-02 05:40:48.057 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-02 05:40:48.057 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-02 05:40:48.098 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 8 register(s) from the database
+2018-04-02 05:40:48.098 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-02 05:40:48.109 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 5 customer(s) from the database
+2018-04-02 05:40:48.110 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-02 05:40:48.115 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-02 05:40:48.116 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-02 05:40:48.116 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-02 05:40:48.191 [main] INFO  a00979176.Gis - 2018-04-02T12:40:48.191Z
+2018-04-02 05:40:48.192 [main] INFO  a00979176.Gis - Duration: 657 ms
+2018-04-02 05:40:48.193 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-02 05:40:51.499 [main] INFO  a00979176.Gis - 2018-04-02T12:40:51.495Z
+2018-04-02 05:40:51.558 [main] INFO  a00979176.Gis - Created Gis
+2018-04-02 05:40:51.558 [main] DEBUG a00979176.Gis - run()
+2018-04-02 05:40:51.559 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-02 05:40:51.560 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-02 05:40:51.561 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-02 05:40:51.562 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-02 05:40:51.562 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-02 05:40:51.684 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-02 05:40:51.858 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-02 05:40:52.020 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-02 05:40:52.021 [main] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-02 05:40:52.021 [main] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-02 05:40:52.030 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-02 05:40:52.031 [main] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-02 05:40:52.032 [main] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-02 05:40:52.039 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-02 05:40:52.040 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-02 05:40:52.082 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 8 register(s) from the database
+2018-04-02 05:40:52.082 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-02 05:40:52.094 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 5 customer(s) from the database
+2018-04-02 05:40:52.094 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-02 05:40:52.100 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-02 05:40:52.100 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-02 05:40:52.101 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-02 05:40:52.180 [main] INFO  a00979176.Gis - 2018-04-02T12:40:52.180Z
+2018-04-02 05:40:52.180 [main] INFO  a00979176.Gis - Duration: 685 ms
+2018-04-02 05:40:52.181 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-02 05:40:54.064 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
+2018-04-02 05:40:57.743 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Inventory menu item pressed.
+2018-04-03 02:01:44.999 [main] INFO  a00979176.Gis - 2018-04-03T09:01:44.996Z
+2018-04-03 02:01:45.057 [main] INFO  a00979176.Gis - Created Gis
+2018-04-03 02:01:45.058 [main] DEBUG a00979176.Gis - run()
+2018-04-03 02:01:45.062 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-03 02:01:45.063 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-03 02:01:45.065 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-03 02:01:45.065 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-03 02:01:45.065 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-03 02:01:45.216 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-03 02:01:45.442 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-03 02:01:45.675 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-03 02:01:45.676 [main] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-03 02:01:45.677 [main] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-03 02:01:45.685 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-03 02:01:45.687 [main] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-03 02:01:45.687 [main] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-03 02:01:45.697 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-03 02:01:45.698 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-03 02:01:45.745 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 8 register(s) from the database
+2018-04-03 02:01:45.745 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-03 02:01:45.766 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 5 customer(s) from the database
+2018-04-03 02:01:45.766 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-03 02:01:45.776 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-03 02:01:45.777 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-03 02:01:45.777 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-03 02:01:45.862 [main] INFO  a00979176.Gis - 2018-04-03T09:01:45.862Z
+2018-04-03 02:01:45.862 [main] INFO  a00979176.Gis - Duration: 866 ms
+2018-04-03 02:01:45.863 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-03 02:01:49.442 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Inventory menu item pressed.
+2018-04-03 02:01:54.421 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Customer menu item pressed.
+2018-04-03 02:02:21.691 [main] INFO  a00979176.Gis - 2018-04-03T09:02:21.688Z
+2018-04-03 02:02:21.748 [main] INFO  a00979176.Gis - Created Gis
+2018-04-03 02:02:21.748 [main] DEBUG a00979176.Gis - run()
+2018-04-03 02:02:21.749 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-03 02:02:21.750 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-03 02:02:21.751 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-03 02:02:21.752 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-03 02:02:21.752 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-03 02:02:21.873 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-03 02:02:22.074 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-03 02:02:22.296 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-03 02:02:22.298 [main] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-03 02:02:22.298 [main] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-03 02:02:22.310 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-03 02:02:22.312 [main] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-03 02:02:22.313 [main] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-03 02:02:22.323 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-03 02:02:22.324 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-03 02:02:22.389 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 8 register(s) from the database
+2018-04-03 02:02:22.390 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-03 02:02:22.402 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 5 customer(s) from the database
+2018-04-03 02:02:22.403 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-03 02:02:22.410 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-03 02:02:22.411 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-03 02:02:22.411 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-03 02:02:22.489 [main] INFO  a00979176.Gis - 2018-04-03T09:02:22.489Z
+2018-04-03 02:02:22.490 [main] INFO  a00979176.Gis - Duration: 801 ms
+2018-04-03 02:02:22.491 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-03 02:02:26.255 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Customer menu item pressed.
+2018-04-03 02:02:36.204 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
+2018-04-03 02:02:41.421 [AWT-EventQueue-0] DEBUG a00979176.database.dao.MotorcycleDao - Update statment: UPDATE bcmc_Motorcycle SET make=?, model=?, yearMade=?, serialNumber=?, mileage=?, customerId=? WHERE id=?
+2018-04-03 02:02:41.422 [AWT-EventQueue-0] DEBUG a00979176.database.dao.Dao - UPDATE bcmc_Motorcycle SET make=?, model=?, yearMade=?, serialNumber=?, mileage=?, customerId=? WHERE id=?
+2018-04-03 02:02:41.517 [AWT-EventQueue-0] ERROR a00979176.ui.MotorcycleReportDialog - Invalid character string format for type BIGINT.
+2018-04-03 02:02:47.762 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
+2018-04-03 02:02:53.158 [main] INFO  a00979176.Gis - 2018-04-03T09:02:53.155Z
+2018-04-03 02:02:53.216 [main] INFO  a00979176.Gis - Created Gis
+2018-04-03 02:02:53.216 [main] DEBUG a00979176.Gis - run()
+2018-04-03 02:02:53.217 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-03 02:02:53.217 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-03 02:02:53.219 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-03 02:02:53.219 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-03 02:02:53.219 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-03 02:02:53.337 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-03 02:02:53.542 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-03 02:02:53.718 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-03 02:02:53.720 [main] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-03 02:02:53.720 [main] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-03 02:02:53.730 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-03 02:02:53.732 [main] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-03 02:02:53.732 [main] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-03 02:02:53.740 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-03 02:02:53.740 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-03 02:02:53.783 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 8 register(s) from the database
+2018-04-03 02:02:53.784 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-03 02:02:53.795 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 5 customer(s) from the database
+2018-04-03 02:02:53.795 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-03 02:02:53.802 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-03 02:02:53.802 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-03 02:02:53.802 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-03 02:02:53.878 [main] INFO  a00979176.Gis - 2018-04-03T09:02:53.878Z
+2018-04-03 02:02:53.879 [main] INFO  a00979176.Gis - Duration: 723 ms
+2018-04-03 02:02:53.880 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-03 02:02:59.955 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
+2018-04-03 02:03:07.865 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Inventory menu item pressed.
+2018-04-03 02:03:11.350 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
+2018-04-03 02:03:15.957 [AWT-EventQueue-0] DEBUG a00979176.database.dao.MotorcycleDao - Update statment: UPDATE bcmc_Motorcycle SET make=?, model=?, yearMade=?, serialNumber=?, mileage=?, customerId=? WHERE id=?
+2018-04-03 02:03:15.957 [AWT-EventQueue-0] DEBUG a00979176.database.dao.Dao - UPDATE bcmc_Motorcycle SET make=?, model=?, yearMade=?, serialNumber=?, mileage=?, customerId=? WHERE id=?
+2018-04-03 02:03:16.002 [AWT-EventQueue-0] ERROR a00979176.ui.MotorcycleReportDialog - Invalid character string format for type BIGINT.
+2018-04-03 02:03:21.034 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
+2018-04-03 02:03:25.811 [main] INFO  a00979176.Gis - 2018-04-03T09:03:25.807Z
+2018-04-03 02:03:25.881 [main] INFO  a00979176.Gis - Created Gis
+2018-04-03 02:03:25.881 [main] DEBUG a00979176.Gis - run()
+2018-04-03 02:03:25.882 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-03 02:03:25.883 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-03 02:03:25.885 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-03 02:03:25.886 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-03 02:03:25.886 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-03 02:03:26.009 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-03 02:03:26.189 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-03 02:03:26.340 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-03 02:03:26.341 [main] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-03 02:03:26.341 [main] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-03 02:03:26.351 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-03 02:03:26.352 [main] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-03 02:03:26.353 [main] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-03 02:03:26.362 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-03 02:03:26.363 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-03 02:03:26.403 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 8 register(s) from the database
+2018-04-03 02:03:26.403 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-03 02:03:26.415 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 5 customer(s) from the database
+2018-04-03 02:03:26.415 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-03 02:03:26.421 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-03 02:03:26.421 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-03 02:03:26.422 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-03 02:03:26.492 [main] INFO  a00979176.Gis - 2018-04-03T09:03:26.492Z
+2018-04-03 02:03:26.493 [main] INFO  a00979176.Gis - Duration: 685 ms
+2018-04-03 02:03:26.493 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-03 02:03:30.647 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
+2018-04-10 01:25:51.279 [main] INFO  a00979176.Gis - 2018-04-10T08:25:51.275Z
+2018-04-10 01:25:51.337 [main] INFO  a00979176.Gis - Created Gis
+2018-04-10 01:25:51.337 [main] DEBUG a00979176.Gis - run()
+2018-04-10 01:25:51.340 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-10 01:25:51.340 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-10 01:25:51.343 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-10 01:25:51.343 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-10 01:25:51.343 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-10 01:25:51.499 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-10 01:25:51.732 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-10 01:25:51.946 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-10 01:25:51.948 [main] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-10 01:25:51.948 [main] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-10 01:25:51.959 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-10 01:25:51.961 [main] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-10 01:25:51.961 [main] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-10 01:25:51.976 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-10 01:25:51.977 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-10 01:25:52.063 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 8 register(s) from the database
+2018-04-10 01:25:52.063 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-10 01:25:52.082 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 5 customer(s) from the database
+2018-04-10 01:25:52.082 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-10 01:25:52.098 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-10 01:25:52.099 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-10 01:25:52.099 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-10 01:25:52.199 [main] INFO  a00979176.Gis - 2018-04-10T08:25:52.199Z
+2018-04-10 01:25:52.199 [main] INFO  a00979176.Gis - Duration: 924 ms
+2018-04-10 01:25:52.201 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-10 01:25:54.936 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
+2018-04-19 03:58:24.735 [main] INFO  a00979176.Gis - 2018-04-19T10:58:24.730Z
+2018-04-19 03:58:24.817 [main] INFO  a00979176.Gis - Created Gis
+2018-04-19 03:58:24.818 [main] DEBUG a00979176.Gis - run()
+2018-04-19 03:58:24.824 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-19 03:58:24.825 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-19 03:58:24.827 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-19 03:58:24.827 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-19 03:58:24.827 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-19 03:58:24.990 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-19 03:58:25.262 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-19 03:58:25.496 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-19 03:58:25.497 [main] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-19 03:58:25.497 [main] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-19 03:58:25.506 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-19 03:58:25.508 [main] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-19 03:58:25.508 [main] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-19 03:58:25.520 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-19 03:58:25.520 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-19 03:58:25.571 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 8 register(s) from the database
+2018-04-19 03:58:25.571 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-19 03:58:25.597 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 5 customer(s) from the database
+2018-04-19 03:58:25.598 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-19 03:58:25.609 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-19 03:58:25.609 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-19 03:58:25.609 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-19 03:58:25.723 [main] INFO  a00979176.Gis - 2018-04-19T10:58:25.723Z
+2018-04-19 03:58:25.724 [main] INFO  a00979176.Gis - Duration: 993 ms
+2018-04-19 03:58:25.725 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-19 03:58:28.367 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Customer menu item pressed.
+2018-04-19 03:58:35.509 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Customer menu item pressed.
+2018-04-19 03:59:01.390 [AWT-EventQueue-0] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Customer values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2018-04-19 03:59:01.466 [AWT-EventQueue-0] DEBUG a00979176.database.dao.CustomerDao - Adding 4654    Silv, Rod                                    r@r.com                                      (555) 555-5555         2018-04-19 was unsuccessful
+2018-04-19 03:59:01.467 [AWT-EventQueue-0] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-19 03:59:01.467 [AWT-EventQueue-0] DEBUG a00979176.data.AllData - loading data
+2018-04-19 03:59:01.467 [AWT-EventQueue-0] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-19 03:59:01.467 [AWT-EventQueue-0] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-19 03:59:01.477 [AWT-EventQueue-0] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-19 03:59:01.478 [AWT-EventQueue-0] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-19 03:59:01.478 [AWT-EventQueue-0] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-19 03:59:01.485 [AWT-EventQueue-0] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-19 03:59:01.485 [AWT-EventQueue-0] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-19 03:59:01.485 [AWT-EventQueue-0] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-19 03:59:01.492 [AWT-EventQueue-0] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-19 03:59:01.492 [AWT-EventQueue-0] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-19 03:59:01.493 [AWT-EventQueue-0] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 8 register(s) from the database
+2018-04-19 03:59:01.493 [AWT-EventQueue-0] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-19 03:59:01.496 [AWT-EventQueue-0] DEBUG a00979176.database.dao.CustomerDao - Loaded 6 customer(s) from the database
+2018-04-19 03:59:01.496 [AWT-EventQueue-0] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-19 03:59:01.496 [AWT-EventQueue-0] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-19 03:59:01.496 [AWT-EventQueue-0] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-19 03:59:12.719 [main] INFO  a00979176.Gis - 2018-04-19T10:59:12.714Z
+2018-04-19 03:59:12.789 [main] INFO  a00979176.Gis - Created Gis
+2018-04-19 03:59:12.789 [main] DEBUG a00979176.Gis - run()
+2018-04-19 03:59:12.790 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-19 03:59:12.790 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-19 03:59:12.792 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-19 03:59:12.792 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-19 03:59:12.792 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-19 03:59:12.945 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-19 03:59:13.215 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-19 03:59:13.418 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-19 03:59:13.419 [main] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-19 03:59:13.419 [main] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-19 03:59:13.429 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-19 03:59:13.431 [main] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-19 03:59:13.431 [main] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-19 03:59:13.440 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-19 03:59:13.441 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-19 03:59:13.490 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 8 register(s) from the database
+2018-04-19 03:59:13.491 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-19 03:59:13.505 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 6 customer(s) from the database
+2018-04-19 03:59:13.505 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-19 03:59:13.514 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-19 03:59:13.514 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-19 03:59:13.514 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-19 03:59:13.599 [main] INFO  a00979176.Gis - 2018-04-19T10:59:13.599Z
+2018-04-19 03:59:13.600 [main] INFO  a00979176.Gis - Duration: 885 ms
+2018-04-19 03:59:13.601 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-19 03:59:15.615 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Customer menu item pressed.
+2018-04-20 04:17:45.766 [main] INFO  a00979176.Gis - 2018-04-20T11:17:45.763Z
+2018-04-20 04:17:45.824 [main] INFO  a00979176.Gis - Created Gis
+2018-04-20 04:17:45.824 [main] DEBUG a00979176.Gis - run()
+2018-04-20 04:17:45.826 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-20 04:17:45.827 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-20 04:17:45.829 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-20 04:17:45.829 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-20 04:17:45.829 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-20 04:17:45.950 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-20 04:17:46.169 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-20 04:17:46.362 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-20 04:17:46.364 [main] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-20 04:17:46.364 [main] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-20 04:17:46.372 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-20 04:17:46.374 [main] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-20 04:17:46.374 [main] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-20 04:17:46.382 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-20 04:17:46.383 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-20 04:17:46.430 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 8 register(s) from the database
+2018-04-20 04:17:46.430 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-20 04:17:46.452 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 6 customer(s) from the database
+2018-04-20 04:17:46.452 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-20 04:17:46.465 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-20 04:17:46.466 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-20 04:17:46.466 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-20 04:17:46.548 [main] INFO  a00979176.Gis - 2018-04-20T11:17:46.548Z
+2018-04-20 04:17:46.549 [main] INFO  a00979176.Gis - Duration: 785 ms
+2018-04-20 04:17:46.550 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-20 04:17:48.534 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Customer menu item pressed.
+2018-04-20 04:21:00.069 [main] INFO  a00979176.Gis - 2018-04-20T11:21:00.065Z
+2018-04-20 04:21:00.128 [main] INFO  a00979176.Gis - Created Gis
+2018-04-20 04:21:00.129 [main] DEBUG a00979176.Gis - run()
+2018-04-20 04:21:00.130 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2018-04-20 04:21:00.130 [main] DEBUG a00979176.data.AllData - loading data
+2018-04-20 04:21:00.132 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2018-04-20 04:21:00.132 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2018-04-20 04:21:00.133 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2018-04-20 04:21:00.273 [main] DEBUG a00979176.database.Database - Driver loaded
+2018-04-20 04:21:00.488 [main] DEBUG a00979176.database.Database - Database connected
+2018-04-20 04:21:00.661 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2018-04-20 04:21:00.662 [main] DEBUG a00979176.database.dao.MotorcycleDao - Constructor MotorcycleDao()
+2018-04-20 04:21:00.662 [main] DEBUG a00979176.database.dao.MotorcycleDao - MotorcycleDao load()
+2018-04-20 04:21:00.672 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2018-04-20 04:21:00.673 [main] DEBUG a00979176.database.dao.InventoryDao - Constructor InventoryDao()
+2018-04-20 04:21:00.673 [main] DEBUG a00979176.database.dao.InventoryDao - InventoryDao load()
+2018-04-20 04:21:00.682 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2018-04-20 04:21:00.683 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle
+2018-04-20 04:21:00.727 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 8 register(s) from the database
+2018-04-20 04:21:00.728 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2018-04-20 04:21:00.740 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 6 customer(s) from the database
+2018-04-20 04:21:00.740 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2018-04-20 04:21:00.747 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2018-04-20 04:21:00.747 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2018-04-20 04:21:00.747 [main] DEBUG a00979176.Gis - Creating the UI
+2018-04-20 04:21:00.823 [main] INFO  a00979176.Gis - 2018-04-20T11:21:00.822Z
+2018-04-20 04:21:00.823 [main] INFO  a00979176.Gis - Duration: 757 ms
+2018-04-20 04:21:00.824 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel
+2018-04-20 04:21:02.672 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Customer menu item pressed.
+2018-04-20 04:21:06.625 [AWT-EventQueue-0] INFO  a00979176.ui.MainFrame - Service menu item pressed.
