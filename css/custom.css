@@ -190,7 +190,8 @@ p {
     text-shadow: 0px 1px 0px #3d768a;
     margin-right: 10px;
     target-name: new;
-    target-new: tab;}
+    target-new: tab;
+}
 
 .githubBtn:hover {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
@@ -218,7 +219,7 @@ p {
     margin-right: 0px;
 }
 
-.jobs-bottom {
+.jobs-bottom, .volunteering-bottom {
     background-color: #fafafa;
     margin-left: -16px;
     padding: 25px 0px 15px 16px;
@@ -229,7 +230,7 @@ p {
     font-size: 1.3rem;
 }
 
-.jobs-center {
+.jobs-center, .volunteering-center {
     margin: 30px 50px 10px 0px;
     margin-top: 30px;
     margin-right: 50px;
@@ -259,6 +260,10 @@ p {
     top: 0;
     text-shadow: 1px 1px rgb(88, 88, 88);
     padding: 30px;
+}
+
+.my-sentence strong {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .pack {
@@ -532,114 +537,145 @@ p {
     .card {
         margin: 50px 15px 50px 15px;
     }
+
     .contacts {
         margin-left: 15px;
         font-size: 1.7rem;
     }
+
     .description li {
         font-size: 1.3rem;
     }
+
     .downloadBtn {
         padding: 5px 13px;
     }
+
     .githubBtn {
         padding: 5px 13px;
     }
+
     .insidePack {
         margin-bottom: 50px;
     }
+
     .glyphicon-menu-hamburger {
         font-size: 40px;
     }
+
     .skill {
         padding-top: 20px;
         padding-bottom: 0px;
     }
+
     .skill figure {
         margin-bottom: 30px;
     }
+
     .title {
         margin-left: -30px;
         font-size: 4rem;
     }
+
     .hide {
         display: inline-block;
     }
+
     .jobs {
         margin-left: 2.5rem;
         margin-right: 1rem;
     }
+
     .jobs-center {
         margin-right: -10px;
         padding-right: 8px;
         text-align: left;
     }
+
     .main {
         position: static;
         margin-top: 100px;
     }
+
     .my-picture {
         min-height: 385px;
     }
+
     .my-sentence {
         font-size: 3rem;
         padding-top: 10px;
     }
+
     .navbar-fixed-side {
         vertical-align: center;
     }
+
     .pack {
         margin: 0;
     }
+
     .row {
         margin-left: 0;
     }
+
     .sidebarBtn {
         display: inline-block;
         vertical-align: middle;
         text-align: left;
     }
+
     .skillsTop h3 {
         font-size: 1.5rem;
         font-weight: bold;
     }
+
     .skill figure {
         margin: 4px;
         margin-bottom: 35px;
     }
+
     .skill figure figcaption {
         font-size: 1.3rem;
     }
+
     .skill figure img {
         height: 10rem;
         width: 10rem;
     }
+
     .title {
         margin-bottom: 50px;
     }
+
     #contact {
         margin-bottom: 0;
     }
+
     #contact img {
         height: 4rem;
         width: 4rem;
         margin-right: 17px;
     }
+
     #experience h4 {
         text-align: left;
         margin-top: 0;
     }
+
     #sidebar {
         margin-bottom: -1px;
     }
+
     #sidebar li {
         padding-top: 15px;
         padding-bottom: 15px;
         font-size: 1.75rem;
     }
+
     #sidebar-components {
         display: none;
     }
+
     #sidebar-components.active {
         display: inherit;
         font-size: 1.8rem;
@@ -648,6 +684,7 @@ p {
         list-style: none;
         text-align: left;
     }
+
     #sidebar-header {
         background-color: #fffcfc;
         text-align: center;
@@ -657,12 +694,15 @@ p {
         box-shadow: -1px 2px 1px -2px #797979;
         border-bottom: none;
     }
+
     #sidebar-header.active {
         background-color: #fafafa;
     }
+
     #sidebar-header h1 {
         margin-top: 14px;
     }
+
     #sidebar-header span {
         float: left;
         line-height: 95px;
@@ -676,12 +716,15 @@ p {
     .card {
         width: 90%;
     }
+
     .hide {
         display: inherit;
     }
+
     .my-picture {
-        min-height: 637px;
+        min-height: 800px;
     }
+
     .navbar-fixed-side {
         position: fixed;
         margin: 0 -13px;
@@ -692,38 +735,47 @@ p {
         border-bottom-width: 0;
         border-radius: 0
     }
+
     .navbar-fixed-side .container,
     .navbar-fixed-side .container-fluid {
         width: auto;
         padding-left: 0;
         padding-right: 0
     }
+
     .navbar-fixed-side .navbar-header {
         float: none
     }
+
     .navbar-fixed-side .navbar-brand {
         height: auto
     }
+
     .navbar-fixed-side>.container .navbar-brand,
     .navbar-fixed-side>.container-fluid .navbar-brand {
         margin-left: 0
     }
+
     .navbar-fixed-side .navbar-collapse {
         width: 100%;
         border-top: 1px solid #e7e7e7
     }
+
     .navbar-fixed-side .navbar-nav {
         float: none;
         margin: 0 -15px
     }
+
     .navbar-fixed-side .navbar-nav>li {
         float: none
     }
+
     .navbar-fixed-side .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
         border-bottom: 1px solid #e7e7e7
     }
+
     .navbar-fixed-side .navbar-form {
         margin: 0;
         margin-left: -15px;
@@ -731,15 +783,18 @@ p {
         padding: 10px 15px;
         border-bottom: 1px solid #e7e7e7
     }
+
     .navbar-fixed-side .navbar-text {
         float: none;
         margin-left: 0;
         margin-right: 0
     }
+
     .navbar-fixed-side .navbar-left,
     .navbar-fixed-side .navbar-right {
         float: none !important
     }
+
     .navbar-fixed-side .navbar-nav .dropdown-menu {
         position: static;
         float: none;
@@ -750,22 +805,27 @@ p {
         box-shadow: none;
         border-bottom: 1px solid #e7e7e7
     }
+
     .navbar-fixed-side .navbar-nav .dropdown-menu>li>a,
     .navbar-fixed-side .navbar-nav .dropdown-menu .dropdown-header {
         padding: 5px 15px 5px 25px
     }
+
     .navbar-fixed-side .navbar-nav .dropdown-menu>li>a {
         line-height: 20px;
         color: #777
     }
+
     .navbar-fixed-side .navbar-nav .dropdown-menu>li>a:hover,
     .navbar-fixed-side .navbar-nav .dropdown-menu>li>a:focus {
         background-image: none
     }
+
     .navbar-fixed-side .navbar-nav .dropdown-menu>.active>a {
         background-color: #e7e7e7;
         color: #555
     }
+
     .navbar-fixed-side .navbar-nav>li>a:hover,
     .navbar-fixed-side .navbar-nav>li>a:focus,
     .navbar-fixed-side .navbar-nav .dropdown-menu>li>a:hover,
@@ -773,6 +833,7 @@ p {
         background-color: #f0f0f0;
         color: #333
     }
+
     .navbar-fixed-side .dropdown>.dropdown-toggle,
     .navbar-fixed-side .dropdown-menu>.dropdown-header {
         background-color: transparent !important;
@@ -783,28 +844,35 @@ p {
         border-bottom: none;
         padding-bottom: 0
     }
+
     .navbar-fixed-side .dropdown-toggle .caret {
         display: none
     }
+
     .navbar-fixed-side .dropdown-menu {
         display: block
     }
+
     .navbar-fixed-side.navbar-inverse .navbar-collapse,
     .navbar-fixed-side.navbar-inverse .navbar-nav>li>a,
     .navbar-fixed-side.navbar-inverse .navbar-form,
     .navbar-fixed-side.navbar-inverse .navbar-nav .dropdown-menu {
         border-color: #363636
     }
+
     .navbar-fixed-side.navbar-inverse .divider {
         background-color: #363636
     }
+
     .navbar-fixed-side.navbar-inverse .navbar-nav .dropdown-menu>li>a {
         color: #9d9d9d
     }
+
     .navbar-fixed-side.navbar-inverse .navbar-nav .dropdown-menu>.active>a {
         background-color: #090909;
         color: #fff
     }
+
     .navbar-fixed-side.navbar-inverse .navbar-nav>li:not(.active)>a:hover,
     .navbar-fixed-side.navbar-inverse .navbar-nav>li:not(.active)>a:focus,
     .navbar-fixed-side.navbar-inverse .navbar-nav .dropdown-menu>li:not(.active)>a:hover,
@@ -812,36 +880,46 @@ p {
         background-color: #2f2f2f;
         color: #fff
     }
+
     .navbar-fixed-side.navbar-inverse .dropdown>.dropdown-toggle {
         color: #777777 !important
     }
+
     .sidebarBtn {
         display: none;
     }
+
     #angular {
         margin-top: 122px;
     }
+
     #contact header {
         margin-bottom: 62px;
     }
+
     #picGallery {
         margin-top: 47px;
     }
+
     #remote {
         margin-top: 172px;
     }
+
     #sidebar-components {
         font-size: 2rem;
         word-spacing: 10px;
         line-height: 40px;
     }
+
     #sidebar-header {
         background-color: #fafafa;
         padding: 13px 30px 32px;
     }
+
     #wForm {
         margin-top: 117px;
     }
+
     #zenith {
         margin-top: 102px;
     }
