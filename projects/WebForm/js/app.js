@@ -127,7 +127,6 @@ const checkPhone = () => {
     if (!isRequired(phone)) {
         showError(phoneEl, 'Phone number cannot be blank.');
     } else if (!isPhoneValid(phone)) {
-        showError(phoneEl);
         showError(phoneEl, `Phoner number is not valid.`)
     } else if (!isBetween(phone.length, min, max)) {
         showError(phoneEl, `Phone must be between ${min} and ${max} characters.`)
