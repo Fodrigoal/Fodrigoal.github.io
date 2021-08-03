@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Photo with Santa Entry Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+        <div class="container">
+            <form id="signup" class="form" method="POST" action="https://formspree.io/f/xzbyjajj">
+                <h1>Photo with Santa Entry Form</h1>
+                <div class="form-field">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" id="firstname" autocomplete="off"
+                        placeholder="Enter your first name">
+                    <small></small>
+                </div>
+
+                <div class="form-field">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="lastname" id="lastname" autocomplete="off"
+                        placeholder="Enter your last name">
+                    <small></small>
+                </div>
+
+                <div class="form-field">
+                    <label for="suburb">Suburb:</label>
+                    <input type="text" name="suburb" id="suburb" autocomplete="off" placeholder="Enter your suburb">
+                    <small></small>
+                </div>
+
+                <div class="form-field">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="phone" id="phone" autocomplete="off" placeholder="Enter your phone number">
+                    <small></small>
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email" autocomplete="off" placeholder="Enter your email">
+                    <small></small>
+                </div>
+
+                <div class="form-field">
+                    <input type="submit" value="Take Photo With Santa" class="btn">
+                </div>
+                <p id="my-form-status"></p>
+            </form>
+        </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
